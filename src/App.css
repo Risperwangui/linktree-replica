@@ -1,5 +1,5 @@
 
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,7 +36,152 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 112px;
+  gap: 24px;
+  position: absolute;
+  width: 1100px;
+  height: 998px;
+  left: 0px;
+  top: 0px;
 }
 
+.main_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 900px;
+  height: 774px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
 
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  width: 830px;
+  height: 774px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-left: 100px;
+}
+
+#profile-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+  width: 830px;
+  height: 142px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#profile__img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.twitter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  height: 30px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+#twitter{
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#slack{
+  display: none;
+}
+
+.avatar{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-left: 600px;
+  top: 40px;
+  background: #FFFFFF;
+  border: 1px dashed #D0D5DD;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.avatar_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 15%;
+  bottom: 15%;
+  border-radius: 12px;
+}
+
+#share_svg{
+  width: 14px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 12.5%;
+  right: 11.53%;
+  top: 14.95%;
+  bottom: 14.95%;
+}
 
