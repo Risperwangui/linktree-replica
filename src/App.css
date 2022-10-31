@@ -425,3 +425,69 @@
 .github a{
   text-decoration: none;
 }
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0px;
+  gap: 64px;
+  position: absolute;
+  width: 1100px;
+  height: 160px;
+  left: 0px;
+  top: 998px;
+  background: #FFFFFF;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 710px;
+  height: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-content{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px 0px;
+  gap: 32px;
+  width: 910px;
+  height: 64px;
+  border-top: 1px solid #EAECF0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-text{
+  margin-top: -35px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.I4G{
+  width: 132.13px;
+  height: 32px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
