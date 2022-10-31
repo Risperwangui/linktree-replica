@@ -88,6 +88,24 @@ function App() {
             </div>
           </div>
         </div>
+        <div className='social-section'>
+          <div className='container-social'>
+            <div className='content-social'>
+              <div className='social-icons'>
+                <div className='slack'>
+                  <a href="https://www.slack.com" target="_blank">
+                    <img src="slack.svg"></img>
+                  </a>
+                </div>
+                <div className='github'>
+                  <a href="https://www.github.com"  target="_blank">
+                   <img src="github.svg"></img>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     

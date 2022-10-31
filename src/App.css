@@ -347,3 +347,81 @@
 
 }
 
+.social-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 64px;
+  width: 900px;
+  height: 72px;
+  background: #FFFFFF;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.container-social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 900px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.content-social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 830px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 830px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.slack{
+  width: 24px;
+  height: 24px;
+  margin-left: 30%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.slack a{
+  text-decoration: none;
+}
+
+.github{
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.github a{
+  text-decoration: none;
+}
