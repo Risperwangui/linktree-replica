@@ -44,10 +44,10 @@
   align-items: center;
   padding: 64px 112px;
   gap: 24px;
-  position: absolute;
+  /* position: absolute; */
   width: 1100px;
   height: 998px;
-  left: 0px;
+  margin-left: -100px;
   top: 0px;
 }
 
@@ -59,7 +59,6 @@
   gap: 32px;
   width: 900px;
   height: 774px;
-  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
@@ -73,7 +72,6 @@
   gap: 56px;
   width: 830px;
   height: 774px;
-  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
@@ -89,7 +87,6 @@
   isolation: isolate;
   width: 830px;
   height: 142px;
-  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
@@ -118,7 +115,6 @@
   padding: 0px;
   gap: 8px;
   height: 30px;
-  flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
@@ -134,7 +130,6 @@
   line-height: 30px;
   text-align: center;
   color: #101828;
-  flex: none;
   order: 0;
   flex-grow: 1;
 }
@@ -152,7 +147,6 @@
   background: #FFFFFF;
   border: 1px dashed #D0D5DD;
   border-radius: 20px;
-  flex: none;
   order: 2;
   flex-grow: 0;
   z-index: 2;
@@ -175,7 +169,6 @@
 #share_svg{
   width: 14px;
   height: 12px;
-  flex: none;
   order: 0;
   flex-grow: 0;
   position: absolute;
@@ -193,7 +186,6 @@
   gap: 24px;
   width: 830px;
   height: 576px;
-  flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
@@ -209,7 +201,6 @@
   width: 830px;
   height: 76px;
   filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
@@ -221,14 +212,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 24px 32px;
+  /* padding: 24px 32px;
   gap: 8px;
-  width: 830px;
+  width: 830px; */
   height: 76px;
   background: #EAECF0;
   border: 1px solid #EAECF0;
   border-radius: 8px;
-  flex: none;
   order: 0;
   flex-grow: 1;
   cursor: pointer;
@@ -251,7 +241,6 @@
   text-align: center;
   color: #101828;
   text-decoration: none;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -269,7 +258,6 @@
   text-align: center;
   color: #101828;
   text-decoration: none;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -287,7 +275,6 @@
   text-align: center;
   color: #101828;
   text-decoration: none;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -305,7 +292,6 @@
   text-align: center;
   color: #101828;
   text-decoration: none;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -323,7 +309,6 @@
   text-align: center;
   color: #101828;
   text-decoration: none;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -341,13 +326,13 @@
   text-align: center;
   color: #101828;
   text-decoration: none;
-  flex: none;
   order: 0;
   flex-grow: 0;
 
 }
 
 .social-section{
+  margin-left: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,7 +341,6 @@
   width: 900px;
   height: 72px;
   background: #FFFFFF;
-  flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
@@ -366,11 +350,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 32px;
+  padding: 0px 250px;
   gap: 32px;
   width: 900px;
   height: 24px;
-  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
@@ -378,12 +361,11 @@
 
 .content-social{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   padding: 0px;
   width: 830px;
   height: 24px;
-  flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
@@ -398,7 +380,6 @@
   gap: 24px;
   width: 830px;
   height: 24px;
-  flex: none;
   order: 0;
   flex-grow: 1;
 }
@@ -407,7 +388,6 @@
   width: 24px;
   height: 24px;
   margin-left: 30%;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -418,7 +398,6 @@
 .github{
   width: 24px;
   height: 24px;
-  flex: none;
   order: 1;
   flex-grow: 0;
 }
@@ -428,29 +407,29 @@
 
 .footer{
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 48px 0px;
   gap: 64px;
-  position: absolute;
-  width: 1100px;
   height: 160px;
   left: 0px;
   top: 998px;
   background: #FFFFFF;
+  margin-left: 110px;
+  margin-right: 90px;
+  align-self: stretch;
+  order: 1;
 }
 
 .footer-container{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 32px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
   gap: 32px;
-  width: 710px;
   height: 64px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  align-self: stretch;
 }
 
 .footer-content{
@@ -459,14 +438,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0px 0px;
   gap: 32px;
-  width: 910px;
   height: 64px;
   border-top: 1px solid #EAECF0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  flex-grow: 1;
 }
 
 .footer-text{
@@ -479,15 +454,593 @@
   line-height: 24px;
   text-align: center;
   color: #667085;
-  flex: none;
-  order: 1;
-  flex-grow: 1;
 }
 
 .I4G{
-  width: 132.13px;
   height: 32px;
   flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+@media screen and (min-width: 10em){
+  
+}
+
+@media screen and (min-width: 20em){
+  
+}
+
+@media screen and (min-width: 30em){
+  
+}
+
+@media screen and (min-width: 40em){
+  .container{
+    width: auto;
+  }
+  
+  .main_section{
+    width: auto;
+  }
+  
+  .content{
+    width: auto;
+  }
+  
+  #profile-section{
+    width: auto;
+  }
+  
+  #profile__img{
+    width: 88px;
+    height: 88px;
+  }
+  
+  #twitter{
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .avatar{
+    width: 25px;
+    height: 25px;
+    margin-left: 600px;
+    top: 40px;
+  }
+  
+  .avatar_content{
+    padding: 4px;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+  }
+  
+  #share_svg{
+    width: 14px;
+    height: 12px;
+    left: 12.5%;
+    right: 11.53%;
+    top: 14.95%;
+    bottom: 14.95%;
+  }
+  
+  .Link-section{
+    width: auto;
+    height: 576px;
+  }
+  
+  .links{
+    width: auto;
+    height: 76px;
+  }
+  
+  .link-frame{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  #btn__twitter{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #btn__zuri{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+  }
+  
+  #books{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #book__python{
+    width: 119px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #pitch{
+    width: 219px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #book__design{
+    width: 118px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .social-section{
+    padding: 24px 0px;
+    gap: 64px;
+    width: auto;
+    height: 72px;
+  }
+  
+  .container-social{
+    /* padding: 0px 32px; */
+    gap: 32px;
+    width: auto;
+    height: 24px;
+  }
+  
+  .content-social{
+    width: auto;
+    height: 24px;
+  }
+  
+  .social-icons{
+    gap: 24px;
+    width: auto;
+    height: 24px;
+  }
+  
+  .slack{
+    width: 24px;
+    height: 24px;
+    margin-left: 30%;
+  }
+
+  .github{
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer{
+    padding: 48px 0px;
+    gap: 64px;
+    width: auto;
+    height: 160px;
+    top: 998px;
+  }
+  
+  .footer-container{
+    padding: 0px 32px;
+    gap: 32px;
+    width: auto;
+    height: 64px;
+  }
+  
+  .footer-content{
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    height: 64px;
+    flex-grow: 1;
+  }
+  
+  .footer-text{
+    margin-top: -35px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .I4G{
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 50em){
+  .container{
+    width: auto;
+  }
+  
+  .main_section{
+    width: auto;
+  }
+  
+  .content{
+    width: auto;
+  }
+  
+  #profile-section{
+    width: auto;
+  }
+  
+  #profile__img{
+    width: 88px;
+    height: 88px;
+  }
+  
+  #twitter{
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .avatar{
+    width: 25px;
+    height: 25px;
+    margin-left: 600px;
+    top: 40px;
+  }
+  
+  .avatar_content{
+    padding: 4px;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+  }
+  
+  #share_svg{
+    width: 14px;
+    height: 12px;
+    left: 12.5%;
+    right: 11.53%;
+    top: 14.95%;
+    bottom: 14.95%;
+  }
+  
+  .Link-section{
+    width: auto;
+    height: 576px;
+  }
+  
+  .links{
+    width: auto;
+    height: 76px;
+  }
+  
+  .link-frame{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  #btn__twitter{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #btn__zuri{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+  }
+  
+  #books{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #book__python{
+    width: 119px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #pitch{
+    width: 219px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #book__design{
+    width: 118px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .social-section{
+    padding: 24px 0px;
+    gap: 64px;
+    width: auto;
+    height: 72px;
+  }
+  
+  .container-social{
+    /* padding: 0px 32px; */
+    gap: 32px;
+    width: auto;
+    height: 24px;
+  }
+  
+  .content-social{
+    width: auto;
+    height: 24px;
+  }
+  
+  .social-icons{
+    gap: 24px;
+    width: auto;
+    height: 24px;
+  }
+  
+  .slack{
+    width: 24px;
+    height: 24px;
+    margin-left: 30%;
+  }
+
+  .github{
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer{
+    padding: 48px 0px;
+    gap: 64px;
+    width: auto;
+    height: 160px;
+    top: 998px;
+  }
+  
+  .footer-container{
+    padding: 0px 32px;
+    gap: 32px;
+    width: auto;
+    height: 64px;
+  }
+  
+  .footer-content{
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    height: 64px;
+    flex-grow: 1;
+  }
+  
+  .footer-text{
+    margin-top: -35px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .I4G{
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 62em){
+  .container{
+    width: auto;
+  }
+  
+  .main_section{
+    width: auto;
+  }
+  
+  .content{
+    width: auto;
+  }
+  
+  #profile-section{
+    width: auto;
+  }
+  
+  #profile__img{
+    width: 88px;
+    height: 88px;
+  }
+  
+  #twitter{
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .avatar{
+    width: 25px;
+    height: 25px;
+    margin-left: 600px;
+    top: 40px;
+  }
+  
+  .avatar_content{
+    padding: 4px;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+  }
+  
+  #share_svg{
+    width: 14px;
+    height: 12px;
+    left: 12.5%;
+    right: 11.53%;
+    top: 14.95%;
+    bottom: 14.95%;
+  }
+  
+  .Link-section{
+    width: auto;
+    height: 576px;
+  }
+  
+  .links{
+    width: auto;
+    height: 76px;
+  }
+  
+  .link-frame{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  #btn__twitter{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #btn__zuri{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+  }
+  
+  #books{
+    width: 101px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #book__python{
+    width: 119px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #pitch{
+    width: 219px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #book__design{
+    width: 118px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .social-section{
+    padding: 24px 0px;
+    gap: 64px;
+    width: auto;
+    height: 72px;
+  }
+  
+  .container-social{
+    gap: 32px;
+    width: auto;
+    height: 24px;
+  }
+  
+  .content-social{
+    width: auto;
+    height: 24px;
+  }
+  
+  .social-icons{
+    gap: 24px;
+    width: auto;
+    height: 24px;
+  }
+  
+  .slack{
+    width: 24px;
+    height: 24px;
+    margin-left: 30%;
+  }
+
+  .github{
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer{
+    padding: 48px 0px;
+    gap: 64px;
+    width: auto;
+    height: 160px;
+    top: 998px;
+  }
+  
+  .footer-container{
+    padding: 0px 32px;
+    gap: 32px;
+    width: auto;
+    height: 64px;
+  }
+  
+  .footer-content{
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    height: 64px;
+    flex-grow: 1;
+  }
+  
+  .footer-text{
+    margin-top: -35px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .I4G{
+    width: 132.13px;
+    height: 32px;
+  }
 }
