@@ -101,7 +101,6 @@
   width: 88px;
   height: 88px;
   border-radius: 275px;
-  flex: none;
   order: 0;
   flex-grow: 0;
   z-index: 0;
@@ -176,6 +175,19 @@
   right: 11.53%;
   top: 14.95%;
   bottom: 14.95%;
+  display: block;
+}
+#share2_svg{
+  width: 14px;
+  height: 12px;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 12.5%;
+  right: 11.53%;
+  top: 14.95%;
+  bottom: 14.95%;
+  display: none;
 }
 
 .Link-section{
@@ -243,6 +255,7 @@
   text-decoration: none;
   order: 0;
   flex-grow: 0;
+  gap: 0px;
 }
 
 #btn__zuri{
@@ -260,6 +273,7 @@
   text-decoration: none;
   order: 0;
   flex-grow: 0;
+  gap: 0px;
 }
 
 #books{
@@ -277,6 +291,7 @@
   text-decoration: none;
   order: 0;
   flex-grow: 0;
+  gap: 0px;
 }
 
 #book__python{
@@ -294,6 +309,7 @@
   text-decoration: none;
   order: 0;
   flex-grow: 0;
+  gap: 0px;
 }
 
 #pitch{
@@ -311,6 +327,7 @@
   text-decoration: none;
   order: 0;
   flex-grow: 0;
+  gap: 0px;
 }
 
 #book__design{
@@ -328,6 +345,7 @@
   text-decoration: none;
   order: 0;
   flex-grow: 0;
+  gap: 0px;
 
 }
 
@@ -437,7 +455,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   gap: 32px;
   height: 64px;
   border-top: 1px solid #EAECF0;
@@ -464,32 +481,634 @@
 }
 
 @media screen and (min-width: 10em){
+  .container{
+    padding: 64px 0px 32px;
+    width: 250px;
+    height: 892px;
+    margin-left: 0px;
+    top: 0px;
+  }
   
+  .main_section{
+    padding: 0px 16px;
+    width: 250px;
+    height: 700px;
+  }
+  
+  .content{
+    gap: 32px;
+    width: 220px;
+    height: 700px;
+    margin-left: 0px;
+  }
+  
+  #profile-section{
+    width: 330px;
+    height: 140px; 
+  }
+  
+  
+  #twitter{
+    
+    width: 330px;
+    height: 28px;
+  }
+  
+  .avatar{
+    margin-left: 300px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .avatar_content{
+    padding: 0px;
+    left: 20%;
+    right: 10%;
+    top: 5%;
+    bottom: 25%;
+  }
+  
+  .Link-section{
+    width: 220px;
+    height: 528px;
+  }
+
+  
+  .links{
+    width: 340px;
+    height: 68px;
+  }
+  
+  .link-frame{
+    width: 300px;
+    height: 68px;
+  }
+  
+  #btn__twitter{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #btn__zuri{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+
+  }
+  
+  #books{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #book__python{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #pitch{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #book__design{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  .social-section{
+    width: 330px;
+    height: 72px;
+    margin-left: -45px;
+  }
+  
+  .container-social{
+    padding: 0px 16px;
+    width: 330px;
+  }
+  
+  .content-social{
+    width: 330px;
+  }
+  
+  .social-icons{
+    width: 330px;
+  }
+  
+  .slack{
+    width: 24px;
+    height: 24px;
+    margin-left: 30%;
+  }
+
+  .github{
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer{
+    padding: 32px 0px;
+    width: 250px;
+    top: 892px;
+  }
+  
+  .footer-container{
+    flex-direction: column;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 132px;
+    margin-left: -185px;
+  }
+  
+  .footer-content{
+    /* padding: 32px 0px 0px; */
+    gap: 16px;
+    height: 64px;
+    flex-direction: column;
+    align-items: initial;
+    gap: 32px;
+    height: 64px;
+    flex-grow: 0;
+  }
+  
+  .footer-text{
+    margin-top: -35px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .I4G{
+    width: 99.1px;
+    height: 24px;
+  }
+
+  #share_svg{
+    display: none;
+  }
+  
+  #share2_svg{
+    display: block;
+    left: 16.67%;
+    right: 16.67%;
+    top: 45.83%;
+    bottom: 45.83%;
+    width: 14px;
+    height: 12px;
+  }
 }
 
 @media screen and (min-width: 20em){
+  .container{
+    padding: 64px 0px 32px;
+    width: 250px;
+    height: 892px;
+    margin-left: 0px;
+    top: 0px;
+  }
   
+  .main_section{
+    padding: 0px 16px;
+    width: 250px;
+    height: 700px;
+  }
+  
+  .content{
+    gap: 32px;
+    width: 220px;
+    height: 700px;
+    margin-left: 0px;
+  }
+  
+  #profile-section{
+    width: 330px;
+    height: 140px; 
+  }
+  
+  
+  #twitter{
+    
+    width: 330px;
+    height: 28px;
+  }
+  
+  .avatar{
+    margin-left: 300px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .avatar_content{
+    padding: 0px;
+    left: 20%;
+    right: 10%;
+    top: 5%;
+    bottom: 25%;
+  }
+  
+  .Link-section{
+    width: 220px;
+    height: 528px;
+  }
+
+  
+  .links{
+    width: 340px;
+    height: 68px;
+  }
+  
+  .link-frame{
+    width: 300px;
+    height: 68px;
+  }
+  
+  #btn__twitter{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #btn__zuri{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+
+  }
+  
+  #books{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #book__python{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #pitch{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #book__design{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  .social-section{
+    width: 330px;
+    height: 72px;
+    margin-left: -45px;
+  }
+  
+  .container-social{
+    padding: 0px 16px;
+    width: 330px;
+  }
+  
+  .content-social{
+    width: 330px;
+  }
+  
+  .social-icons{
+    width: 330px;
+  }
+  
+  .slack{
+    width: 24px;
+    height: 24px;
+    margin-left: 30%;
+  }
+
+  .github{
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer{
+    padding: 32px 0px;
+    width: 250px;
+    top: 892px;
+  }
+  
+  .footer-container{
+    flex-direction: column;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 132px;
+    margin-left: -185px;
+  }
+  
+  .footer-content{
+    /* padding: 32px 0px 0px; */
+    gap: 16px;
+    height: 64px;
+    flex-direction: column;
+    align-items: initial;
+    gap: 32px;
+    height: 64px;
+    flex-grow: 0;
+  }
+  
+  .footer-text{
+    margin-top: -35px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .I4G{
+    width: 99.1px;
+    height: 24px;
+  }
+
+  #share_svg{
+    display: none;
+  }
+  
+  #share2_svg{
+    display: block;
+    left: 16.67%;
+    right: 16.67%;
+    top: 45.83%;
+    bottom: 45.83%;
+    width: 14px;
+    height: 12px;
+  }
 }
 
 @media screen and (min-width: 30em){
+  .container{
+    padding: 64px 0px 32px;
+    width: 250px;
+    height: 892px;
+    margin-left: 0px;
+    top: 0px;
+  }
   
+  .main_section{
+    padding: 0px 16px;
+    width: 250px;
+    height: 700px;
+  }
+  
+  .content{
+    gap: 32px;
+    width: 220px;
+    height: 700px;
+    margin-left: 0px;
+  }
+  
+  #profile-section{
+    width: 330px;
+    height: 140px; 
+  }
+  
+  #twitter{
+    width: 330px;
+    height: 28px;
+  }
+  
+  .avatar{
+    margin-left: 300px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .avatar_content{
+    padding: 0px;
+    left: 20%;
+    right: 10%;
+    top: 5%;
+    bottom: 25%;
+  }
+  
+  .Link-section{
+    width: 220px;
+    height: 528px;
+  }
+
+  
+  .links{
+    width: 340px;
+    height: 68px;
+  }
+  
+  .link-frame{
+    width: 300px;
+    height: 68px;
+  }
+  
+  #btn__twitter{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #btn__zuri{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+
+  }
+  
+  #books{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #book__python{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #pitch{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  #book__design{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+  
+  .social-section{
+    width: 330px;
+    height: 72px;
+    margin-left: -45px;
+  }
+  
+  .container-social{
+    padding: 0px 16px;
+    width: 330px;
+  }
+  
+  .content-social{
+    width: 330px;
+  }
+  
+  .social-icons{
+    width: 330px;
+  }
+  
+  .slack{
+    width: 24px;
+    height: 24px;
+    margin-left: 30%;
+  }
+
+  .github{
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer{
+    padding: 32px 0px;
+    width: 250px;
+    top: 892px;
+  }
+  
+  .footer-container{
+    flex-direction: column;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 132px;
+    margin-left: -185px;
+  }
+  
+  .footer-content{
+    /* padding: 32px 0px 0px; */
+    gap: 16px;
+    height: 64px;
+    flex-direction: column;
+    align-items: initial;
+    gap: 32px;
+    height: 64px;
+    flex-grow: 0;
+  }
+  
+  .footer-text{
+    margin-top: -35px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .I4G{
+    width: 99.1px;
+    height: 24px;
+  }
+
+  #share_svg{
+    display: none;
+  }
+  
+  #share2_svg{
+    display: block;
+    left: 16.67%;
+    right: 16.67%;
+    top: 45.83%;
+    bottom: 45.83%;
+    width: 14px;
+    height: 12px;
+  }
 }
 
 @media screen and (min-width: 40em){
   .container{
     width: auto;
+    padding: 64px 112px;
+    height: 998px;
+    margin-left: -100px;
+    top: 0px;
   }
   
   .main_section{
     width: auto;
+    padding: 0px 32px;
+    height: 774px;
   }
   
   .content{
     width: auto;
+    gap: 56px;
+    height: 774px;
+    margin-left: 130px;
   }
   
   #profile-section{
     width: auto;
+    height: 142px;
   }
   
   #profile__img{
@@ -549,6 +1168,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #btn__zuri{
@@ -557,7 +1177,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-
+    gap: 0px;
   }
   
   #books{
@@ -566,6 +1186,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #book__python{
@@ -574,6 +1195,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #pitch{
@@ -582,6 +1204,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #book__design{
@@ -590,6 +1213,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   .social-section{
@@ -597,6 +1221,7 @@
     gap: 64px;
     width: auto;
     height: 72px;
+    margin-left: 90px;
   }
   
   .container-social{
@@ -604,6 +1229,7 @@
     gap: 32px;
     width: auto;
     height: 24px;
+    padding: 0px 250px;
   }
   
   .content-social{
@@ -641,6 +1267,8 @@
     gap: 32px;
     width: auto;
     height: 64px;
+    margin-left: 0px;
+    flex-direction: row;
   }
   
   .footer-content{
@@ -648,7 +1276,6 @@
     flex-direction: row;
     align-items: center;
     gap: 32px;
-    height: 64px;
     flex-grow: 1;
   }
   
@@ -662,24 +1289,47 @@
   
   .I4G{
     height: 32px;
+  }
+
+  #share_svg{
+    display: none;
+  }
+  #share2_svg{
+    display: block;
+    left: 11.67%;
+    right: 17.67%;
+    top: 15.83%;
+    bottom: 45.83%;
+    width: 14px;
+    height: 12px;
   }
 }
 
 @media screen and (min-width: 50em){
   .container{
     width: auto;
+    padding: 64px 112px;
+    height: 998px;
+    margin-left: -100px;
+    top: 0px;
   }
   
   .main_section{
     width: auto;
+    padding: 0px 32px;
+    height: 774px;
   }
   
   .content{
     width: auto;
+    gap: 56px;
+    height: 774px;
+    margin-left: 130px;
   }
   
   #profile-section{
     width: auto;
+    height: 142px;
   }
   
   #profile__img{
@@ -739,6 +1389,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #btn__zuri{
@@ -747,7 +1398,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-
+    gap: 0px;
   }
   
   #books{
@@ -756,6 +1407,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #book__python{
@@ -764,6 +1416,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #pitch{
@@ -772,6 +1425,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #book__design{
@@ -780,6 +1434,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   .social-section{
@@ -787,6 +1442,7 @@
     gap: 64px;
     width: auto;
     height: 72px;
+    margin-left: 90px;
   }
   
   .container-social{
@@ -794,6 +1450,7 @@
     gap: 32px;
     width: auto;
     height: 24px;
+    padding: 0px 250px;
   }
   
   .content-social{
@@ -831,6 +1488,8 @@
     gap: 32px;
     width: auto;
     height: 64px;
+    margin-left: 0px;
+    flex-direction: row;
   }
   
   .footer-content{
@@ -853,23 +1512,39 @@
   .I4G{
     height: 32px;
   }
+  #share_svg{
+    display: block;
+  }
+  #share2_svg{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 62em){
   .container{
     width: auto;
+    padding: 64px 112px;
+    height: 998px;
+    margin-left: -100px;
+    top: 0px;
   }
   
   .main_section{
     width: auto;
+    padding: 0px 32px;
+    height: 774px;
   }
   
   .content{
     width: auto;
+    gap: 56px;
+    height: 774px;
+    margin-left: 130px;
   }
   
   #profile-section{
     width: auto;
+    height: 142px;
   }
   
   #profile__img{
@@ -929,6 +1604,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #btn__zuri{
@@ -937,7 +1613,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-
+    gap: 0px;
   }
   
   #books{
@@ -946,6 +1622,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #book__python{
@@ -954,6 +1631,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #pitch{
@@ -962,6 +1640,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   #book__design{
@@ -970,6 +1649,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    gap: 0px;
   }
   
   .social-section{
@@ -977,12 +1657,14 @@
     gap: 64px;
     width: auto;
     height: 72px;
+    margin-left: 90px;
   }
   
   .container-social{
     gap: 32px;
     width: auto;
     height: 24px;
+    padding: 0px 250px;
   }
   
   .content-social{
@@ -1020,15 +1702,17 @@
     gap: 32px;
     width: auto;
     height: 64px;
+    margin-left: 0px;
+    flex-direction: row;
   }
   
   .footer-content{
     height: 64px;
     flex-direction: row;
-    align-items: center;
     gap: 32px;
     height: 64px;
     flex-grow: 1;
+    align-items: center;
   }
   
   .footer-text{
@@ -1042,5 +1726,12 @@
   .I4G{
     width: 132.13px;
     height: 32px;
+  }
+
+  #share_svg{
+    display: block;
+  }
+  #share2_svg{
+    display: none;
   }
 }

@@ -39,6 +39,9 @@ function App() {
                   <div className="share">
                     <img id='share_svg' src='share.svg'></img>
                   </div>
+                  <div className="share2">
+                    <img id='share2_svg' src='share2.svg'></img>
+                  </div>
                 </div>
               </div>
             </div>
