@@ -234,6 +234,7 @@
   order: 0;
   flex-grow: 1;
   cursor: pointer;
+  text-decoration: none;
 }
 .link-frame:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -241,6 +242,29 @@
 }
 
 #btn__twitter{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 24px 32px;
+  gap: 8px;
+  width: 830px; */
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#btn__twitter:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.81;
+}
+
+.btn-twitter{
   width: 101px;
   height: 28px;
   font-family: 'Inter';
@@ -259,6 +283,29 @@
 }
 
 #btn__zuri{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 24px 32px;
+  gap: 8px;
+  width: 830px; */
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#btn__zuri:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.81;
+}
+
+.btn-zuri{
   width: 101px;
   height: 28px;
   font-family: 'Inter';
@@ -277,6 +324,29 @@
 }
 
 #books{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 24px 32px;
+  gap: 8px;
+  width: 830px; */
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#books:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.81;
+}
+
+.btn-books{
   width: 101px;
   height: 28px;
   font-family: 'Inter';
@@ -295,7 +365,30 @@
 }
 
 #book__python{
-  width: 119px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 24px 32px;
+  gap: 8px;
+  width: 830px; */
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#book__python:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.81;
+}
+
+.btn-python{
+  width: 101px;
   height: 28px;
   font-family: 'Inter';
   font-style: normal;
@@ -313,7 +406,30 @@
 }
 
 #pitch{
-  width: 219px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 24px 32px;
+  gap: 8px;
+  width: 830px; */
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#pitch:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.81;
+}
+
+.btn-pitch{
+  width: 101px;
   height: 28px;
   font-family: 'Inter';
   font-style: normal;
@@ -331,7 +447,30 @@
 }
 
 #book__design{
-  width: 118px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 24px 32px;
+  gap: 8px;
+  width: 830px; */
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#book__design:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.81;
+}
+
+.btn-design{
+  width: 101px;
   height: 28px;
   font-family: 'Inter';
   font-style: normal;
@@ -346,7 +485,6 @@
   order: 0;
   flex-grow: 0;
   gap: 0px;
-
 }
 
 .social-section{
@@ -545,6 +683,11 @@
   }
   
   #btn__twitter{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-twitter{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -552,18 +695,27 @@
     height: 68px;
     order: 1;
   }
-  
-  #btn__zuri{
-    flex-direction: row;
-    justify-content: center;
-    gap: 12px;
-    width: 220px;
-    height: 68px;
-    order: 1;
 
+  #btn__zuri{
+    width: 300px;
+    height: 68px;
   }
   
+  .btn-zuri{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+
   #books{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-books{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -573,6 +725,11 @@
   }
   
   #book__python{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-python{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -580,8 +737,13 @@
     height: 68px;
     order: 1;
   }
-  
+
   #pitch{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-pitch{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -591,6 +753,11 @@
   }
   
   #book__design{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-design{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -711,7 +878,6 @@
   
   
   #twitter{
-    
     width: 330px;
     height: 28px;
   }
@@ -747,6 +913,11 @@
   }
   
   #btn__twitter{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-twitter{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -754,18 +925,27 @@
     height: 68px;
     order: 1;
   }
-  
-  #btn__zuri{
-    flex-direction: row;
-    justify-content: center;
-    gap: 12px;
-    width: 220px;
-    height: 68px;
-    order: 1;
 
+  #btn__zuri{
+    width: 300px;
+    height: 68px;
   }
   
+  .btn-zuri{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+
   #books{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-books{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -775,6 +955,11 @@
   }
   
   #book__python{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-python{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -782,8 +967,13 @@
     height: 68px;
     order: 1;
   }
-  
+
   #pitch{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-pitch{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -793,6 +983,11 @@
   }
   
   #book__design{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-design{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -947,6 +1142,11 @@
   }
   
   #btn__twitter{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-twitter{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -954,18 +1154,27 @@
     height: 68px;
     order: 1;
   }
-  
-  #btn__zuri{
-    flex-direction: row;
-    justify-content: center;
-    gap: 12px;
-    width: 220px;
-    height: 68px;
-    order: 1;
 
+  #btn__zuri{
+    width: 300px;
+    height: 68px;
   }
   
+  .btn-zuri{
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 220px;
+    height: 68px;
+    order: 1;
+  }
+
   #books{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-books{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -975,6 +1184,11 @@
   }
   
   #book__python{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-python{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -982,8 +1196,13 @@
     height: 68px;
     order: 1;
   }
-  
+
   #pitch{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-pitch{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -993,6 +1212,11 @@
   }
   
   #book__design{
+    width: 300px;
+    height: 68px;
+  }
+  
+  .btn-design{
     flex-direction: row;
     justify-content: center;
     gap: 12px;
@@ -1163,6 +1387,12 @@
   }
   
   #btn__twitter{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-twitter{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1170,8 +1400,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #btn__zuri{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-zuri{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1179,8 +1415,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #books{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-books{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1190,6 +1432,12 @@
   }
   
   #book__python{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-python{
     width: 119px;
     height: 28px;
     font-weight: 500;
@@ -1197,8 +1445,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #pitch{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-pitch{
     width: 219px;
     height: 28px;
     font-weight: 500;
@@ -1208,6 +1462,12 @@
   }
   
   #book__design{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-design{
     width: 118px;
     height: 28px;
     font-weight: 500;
@@ -1384,6 +1644,12 @@
   }
   
   #btn__twitter{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-twitter{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1391,8 +1657,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #btn__zuri{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-zuri{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1400,8 +1672,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #books{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-books{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1411,6 +1689,12 @@
   }
   
   #book__python{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-python{
     width: 119px;
     height: 28px;
     font-weight: 500;
@@ -1418,8 +1702,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #pitch{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-pitch{
     width: 219px;
     height: 28px;
     font-weight: 500;
@@ -1429,6 +1719,12 @@
   }
   
   #book__design{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-design{
     width: 118px;
     height: 28px;
     font-weight: 500;
@@ -1597,8 +1893,14 @@
     width: auto;
     height: 76px;
   }
-  
+
   #btn__twitter{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-twitter{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1606,8 +1908,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #btn__zuri{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-zuri{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1615,8 +1923,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #books{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-books{
     width: 101px;
     height: 28px;
     font-weight: 500;
@@ -1626,6 +1940,12 @@
   }
   
   #book__python{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-python{
     width: 119px;
     height: 28px;
     font-weight: 500;
@@ -1633,8 +1953,14 @@
     line-height: 28px;
     gap: 0px;
   }
-  
+
   #pitch{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-pitch{
     width: 219px;
     height: 28px;
     font-weight: 500;
@@ -1644,6 +1970,12 @@
   }
   
   #book__design{
+    padding: 24px 32px;
+    width: auto;
+    height: 76px;
+  }
+  
+  .btn-design{
     width: 118px;
     height: 28px;
     font-weight: 500;
