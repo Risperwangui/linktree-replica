@@ -33,7 +33,7 @@ function App() {
               <div className="twitter">
                 <p id="twitter"> Wangui Resper</p>
               </div>
-              <p id="slack"> Risper Ndungu </p>
+              <p id="slack">Risperndungu</p>
               <div className="avatar">
                 <div className="avatar_content">
                   <div className="share">
