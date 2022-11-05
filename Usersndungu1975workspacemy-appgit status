@@ -1,0 +1,59 @@
+[33mcommit 561a41079627bdc00d71b8945214d2eabdd1589c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Sat Nov 5 00:17:30 2022 +0300
+
+    Added the contact and contact form pages and updated their CSS.
+
+[33mcommit d663dde1d72a6f2d734192e5d84a27cbefe2ad11[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Tue Nov 1 12:26:55 2022 +0300
+
+    Updated links to make the frames clickable.
+
+[33mcommit c604afe2e03a7f2ca7b9b449d5989a9e6ea8427d[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Tue Nov 1 03:58:10 2022 +0300
+
+    Updated hidden slack name.
+
+[33mcommit 187c3b47946f3c29f1a080e0e76abdd99b682090[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Tue Nov 1 03:34:47 2022 +0300
+
+    Implemented responsiveness for small screens.
+
+[33mcommit cc318a44172243a800835410f9be85800910a0c9[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Mon Oct 31 22:23:44 2022 +0300
+
+    Implemented responsiveness for large screens.
+
+[33mcommit 15d95d6e90cd6368445ecf02552e610c176eff9e[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Mon Oct 31 17:14:25 2022 +0300
+
+    Added a footer.
+
+[33mcommit 05aaba0e282db9f4408f1e8146478d4717492218[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Mon Oct 31 16:50:16 2022 +0300
+
+    Added the social section which entails a github and slack icon.
+
+[33mcommit 28b9511b71ace6d71ec30929a26804a362c0142b[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Mon Oct 31 16:42:25 2022 +0300
+
+    Added a link section with respective links having tooltips for their descriptions.
+
+[33mcommit be4968ec3f77d52260a3db913cab0d98186bd937[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Mon Oct 31 02:48:51 2022 +0300
+
+    Added a profile section with a profile image, a twitter username, a hidden slack username and a share button for web.
+
+[33mcommit a993b201d759bb692d36e1aa5cad7e1d2bc7af9b[m
+Author: Risperwangui <99345570+Risperwangui@users.noreply.github.com>
+Date:   Sun Oct 30 22:12:28 2022 +0300
+
+    Added root directories and files

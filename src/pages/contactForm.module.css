@@ -1,0 +1,31 @@
+.message{
+    margin-bottom: 0px;
+}
+.last_name{
+    margin-top: 0px;
+}
+@media screen and (min-width: 10em){
+    .last_name{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 20em){
+    .last_name{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 30em){
+    .last_name{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 40em){
+    .last_name{
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width: 62em){
+    .last_name{
+        margin-top: 0px;
+    }
+}
